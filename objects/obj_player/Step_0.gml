@@ -3,7 +3,7 @@ velocidade_vertical += gravidade;
 var direita, esquerda, jump;
 esquerda = keyboard_check(ord("A"));
 direita = keyboard_check(ord("D"));
-jump = keyboard_check_pressed(vk_space);
+jump = keyboard_check(vk_space);
 
 velocidade_horizontal = (direita - esquerda) * velocidade;
 
@@ -28,13 +28,29 @@ if (place_meeting(x, y + velocidade_vertical, obj_chao))
 }
 y += velocidade_vertical;
 
-estou_no_chao = place_meeting(x, y+3, obj_chao);
+/*estou_no_chao = place_meeting(x, y+1, obj_chao);
 if (jump)
 {
 	if (estou_no_chao)
 	{
-		velocidade_vertical -= 8;
+		velocidade_vertical -= 10;
 	}
+}*/
+
+if (place_meeting(x,y+1,obj_chao)) && (jump)	//Se eu estiver no chão e o pulo for verdadeiro;
+{
+	altura_do_salto = 0.1; //Altura do salto sera esse valor;
+	velocidade_vertical = velocidade_do_salto * altura_do_salto;
+	estou_no_chao = true;
+}
+if (!jump)
+{
+	estou_no_chao = false;
+}
+else if(altura_do_salto < .5 && jump)
+{
+	altura_do_salto+= .05;
+	velocidade_vertical = -velocidade_do_salto * altura_do_salto;
 }
 
 
