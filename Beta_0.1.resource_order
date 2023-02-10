@@ -17,5 +17,9 @@
     {"name":"Player_obj","order":1,"path":"folders/Objetos/Player_obj.yy",},
     {"name":"Player_spr","order":1,"path":"folders/Sprites/Player_spr.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"obj_chao","order":2,"path":"objects/obj_chao/obj_chao.yy",},
+    {"name":"spr_chao","order":2,"path":"sprites/spr_chao/spr_chao.yy",},
+  ],
 }
