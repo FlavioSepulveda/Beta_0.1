@@ -1,0 +1,31 @@
+#region mudança de sprite
+//Mudando a Animação do player;
+if(!place_meeting(x,y+1,obj_chao)) //Se ele estiver no ar;
+{
+	sprite_index = spr_player_jump;	//O sprite dele sera esse;
+	image_speed = 0;
+	
+}
+else
+{
+	image_speed = 1;
+	if (velocidade_horizontal == 0 && pode_atacar)
+	{
+		sprite_index = spr_player;
+	}
+	else if(pode_atacar)
+	{
+		sprite_index = spr_player_wak;
+	}
+	if(pode_atacar && attack)
+	{
+		pode_atacar = false;
+		sprite_index = spr_player_attack;
+		alarm[0]=room_speed/2;
+	}
+	
+	
+}
+
+
+#endregion
