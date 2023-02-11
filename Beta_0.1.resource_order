@@ -18,7 +18,10 @@
     {"name":"Player_spr","order":1,"path":"folders/Sprites/Player_spr.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_player_jump","order":1,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
     {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"spr_player_attack","order":3,"path":"sprites/spr_player_attack/spr_player_attack.yy",},
+    {"name":"spr_player_wak","order":2,"path":"sprites/spr_player_wak/spr_player_wak.yy",},
     {"name":"obj_chao","order":2,"path":"objects/obj_chao/obj_chao.yy",},
     {"name":"spr_chao","order":2,"path":"sprites/spr_chao/spr_chao.yy",},
   ],

@@ -7,3 +7,9 @@ velocidade_horizontal = 0;
 altura_do_salto = 0;
 velocidade_do_salto = 14;
 estou_no_chao = true;
+
+pode_atacar = true;
+
+estado = "Parado";
+//Metodos do player
+
