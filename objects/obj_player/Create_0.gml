@@ -9,7 +9,7 @@ estou_no_chao = false;
 
 xscale = 1;
 
-pode_atacar = true;
+pode_atacar = false;
 estado = "Idle";
 //Metodos do player
 

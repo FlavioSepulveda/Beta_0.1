@@ -50,7 +50,12 @@ if (estou_no_chao)
 		estado="Pulando";
 	}
 #endregion
-
+#region Ataque
+	if (attack)
+	{
+		estado = "Ataque";
+	}
+#endregion
 #region maquina de estados
 if (estado == "Idle")
 {
@@ -63,9 +68,13 @@ if (estado == "Idle")
 	sprite_index = spr_player_jump_1;
 	}
 	else{
-	sprite_index=spr_player_jump_2;	
+	sprite_index = spr_player_jump_2;	
 	}
+}else if(estado == "Ataque"){
+	velocidade_horizontal=0;
+	sprite_index = spr_player_attack;
 }
+
 #endregion
 
 
