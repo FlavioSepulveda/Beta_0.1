@@ -14,7 +14,6 @@
     {"name":"Curvas da animação","order":12,"path":"folders/Curvas da animação.yy",},
     {"name":"Anotações","order":13,"path":"folders/Anotações.yy",},
     {"name":"Extensões","order":14,"path":"folders/Extensões.yy",},
-    {"name":"Player_obj","order":1,"path":"folders/Objetos/Player_obj.yy",},
     {"name":"Player_spr","order":1,"path":"folders/Sprites/Player_spr.yy",},
     {"name":"jump","order":4,"path":"folders/Sprites/Player_spr/jump.yy",},
     {"name":"climb","order":5,"path":"folders/Sprites/Player_spr/climb.yy",},
@@ -23,11 +22,13 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"spr_inimigo","order":4,"path":"sprites/spr_inimigo/spr_inimigo.yy",},
     {"name":"_colision_mask","order":6,"path":"sprites/_colision_mask/_colision_mask.yy",},
+    {"name":"obj_inimigo_main","order":2,"path":"objects/obj_inimigo_main/obj_inimigo_main.yy",},
     {"name":"spr_player_attack","order":3,"path":"sprites/spr_player_attack/spr_player_attack.yy",},
     {"name":"spr_player_jump_1","order":1,"path":"sprites/spr_player_jump_1/spr_player_jump_1.yy",},
     {"name":"spr_player_walk","order":2,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
-    {"name":"obj_chao","order":2,"path":"objects/obj_chao/obj_chao.yy",},
+    {"name":"obj_chao","order":1,"path":"objects/obj_chao/obj_chao.yy",},
     {"name":"spr_chao","order":2,"path":"sprites/spr_chao/spr_chao.yy",},
   ],
 }
