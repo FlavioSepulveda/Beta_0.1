@@ -1,14 +1,6 @@
-//Iniciando Gravidade do inimigo;
-
+//Fazendo a gravidade atuar sobre esse objeto;
 velocidade_vertical += gravidade;
-//Checando a direção~;
-velocidade_horizontal = velocidade * dir;
-
-//Iniciando a animação corretamente
-if (velocidade_horizontal != 0){
-	image_xscale = sign(velocidade_horizontal);}
-
-//Iniciando colisões do inimigo;
+//Criando a colisão deste objeto;
 #region colisão horizontal
 if (place_meeting(x + velocidade_horizontal, y, obj_chao))
 {
@@ -17,7 +9,6 @@ if (place_meeting(x + velocidade_horizontal, y, obj_chao))
 		x = x + sign(velocidade_horizontal);
 	}
 	velocidade_horizontal = 0;
-	dir *= -1;
 }
 x += velocidade_horizontal;
 #endregion
