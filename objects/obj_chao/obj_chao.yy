@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Gp_Etc",
+    "path": "folders/Objetos/Gp_Etc.yy",
   },
   "parentObjectId": null,
   "persistent": false,

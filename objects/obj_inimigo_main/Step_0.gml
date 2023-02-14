@@ -7,7 +7,11 @@ velocidade_horizontal = velocidade * dir;
 //Iniciando a animação corretamente
 if (velocidade_horizontal != 0){
 	image_xscale = sign(velocidade_horizontal);}
-
+//
+if (place_meeting(x+velocidade_horizontal, y, wall_enemy))
+{
+	dir *= -1;
+}
 //Iniciando colisões do inimigo;
 #region colisão horizontal
 if (place_meeting(x + velocidade_horizontal, y, obj_chao))
@@ -33,3 +37,4 @@ if (place_meeting(x, y + velocidade_vertical, obj_chao))
 }
 y += velocidade_vertical;
 #endregion
+

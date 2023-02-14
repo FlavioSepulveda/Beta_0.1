@@ -6,3 +6,6 @@ velocidade_horizontal = 0;
 
 //Direção do inimigo;
 dir = 1;
+
+//Eventos de desenho
+v_cor = c_aqua;
