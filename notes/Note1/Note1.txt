@@ -29,3 +29,47 @@ else
 
 
 #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+else if(estado=="atacando"){
+		velocidade_horizontal = 0;
+		if (combo == 0)
+		{
+			sprite_index = spr_attack_0; 
+		}
+		if(combo == 1)
+		{
+			sprite_index = spr_attack_1;
+		}
+		if (combo == 2)
+		{
+			sprite_index = spr_attack_2
+		}
+		if (attack && combo <2 && image_index = image_number-2)
+		{
+			combo++;
+			image_index = 0;
+		}
+		if (image_index > image_number-1)
+		{
+			estado = "Idle";
+			velocidade_horizontal = 0;
+			combo = 0;
+		}
+	}

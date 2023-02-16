@@ -16,21 +16,10 @@ velocidade_vertical_max = 10;
 
 vida = 5;
 
-pode_atacar = false;
 estado = "Idle";
 
 v_cor = c_aqua;
 
-//Metodos do player:
-///@method perdi_vida();
-perdi_vida = function(){
-	//Fazendo eu sofrer dano;
-	if(vida >= 1){
-		vida --;
-		screen_shake(5);
-	}else{
-		instance_destroy();
-	}
-}
+
 
 

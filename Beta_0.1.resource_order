@@ -19,6 +19,7 @@
     {"name":"Etc","order":5,"path":"folders/Sprites/Etc.yy",},
     {"name":"Gp_Etc","order":5,"path":"folders/Objetos/Gp_Etc.yy",},
     {"name":"Gp_Inimigos","order":6,"path":"folders/Objetos/Gp_Inimigos.yy",},
+    {"name":"ataque","order":7,"path":"folders/Sprites/Player_spr/ataque.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_ssk","order":4,"path":"objects/obj_ssk/obj_ssk.yy",},
@@ -34,9 +35,12 @@
     {"name":"wall_enemy","order":1,"path":"objects/wall_enemy/wall_enemy.yy",},
     {"name":"obj_cpu","order":3,"path":"objects/obj_cpu/obj_cpu.yy",},
     {"name":"spr_player_jump_1","order":1,"path":"sprites/spr_player_jump_1/spr_player_jump_1.yy",},
+    {"name":"Sprite17","order":6,"path":"sprites/Sprite17/Sprite17.yy",},
+    {"name":"spr_attack_1","order":1,"path":"sprites/spr_attack_1/spr_attack_1.yy",},
     {"name":"spr_player_walk","order":2,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
     {"name":"obj_level","order":3,"path":"objects/obj_level/obj_level.yy",},
     {"name":"obj_chao","order":2,"path":"objects/obj_chao/obj_chao.yy",},
+    {"name":"spr_attack_2","order":2,"path":"sprites/spr_attack_2/spr_attack_2.yy",},
     {"name":"spr_chao","order":2,"path":"sprites/spr_chao/spr_chao.yy",},
   ],
 }

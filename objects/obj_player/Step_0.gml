@@ -1,9 +1,9 @@
-var direita, esquerda, jump, attack,jump1;
+var direita, esquerda, jump, attack, jump1;
 esquerda = keyboard_check(ord("A"));
 direita = keyboard_check(ord("D"));
 jump = keyboard_check_pressed(vk_space);
 jump1 = keyboard_check(vk_space);
-attack = keyboard_check_pressed(ord("S"));
+attack = keyboard_check(ord("S"));
 
 velocidade_vertical += gravidade;
 velocidade_vertical = clamp(velocidade_vertical,-velocidade_vertical_max,velocidade_vertical_max);
@@ -36,7 +36,6 @@ if (place_meeting(x + velocidade_horizontal, y, obj_chao))
 }
 x += velocidade_horizontal;
 #endregion
-
 #region colisão vertical
 if (place_meeting(x, y + velocidade_vertical, obj_chao))
 { 
